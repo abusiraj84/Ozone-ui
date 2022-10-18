@@ -1,6 +1,7 @@
 {
   "name": "@ozone-ui/app1",
   "version": "0.0.1",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
@@ -43,5 +44,6 @@
     "vite": "^3.0.9",
     "vitest": "^0.23.0",
     "vue-tsc": "^0.40.7"
-  }
+  },
+  "gitHead": "2365fbc81b52cd5906615e92b9163406c2d99b87"
 }
