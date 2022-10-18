@@ -1,2 +1,5 @@
 import { Btn } from "../components/btn/";
-export { Btn };
+import { Icon } from "@iconify/vue";
+import styles from "../index.css";
+
+export { Btn, Icon, styles };

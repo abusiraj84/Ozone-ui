@@ -24,7 +24,9 @@ export default defineConfig({
     },
   },
   build: {
+    cssCodeSplit: true,
     lib: {
+      formats: ['umd'],
       // Could also be a dictionary or array of multiple entry points
       entry: resolve(__dirname, './src/lib/main.js'),
       name: 'MyLib',
