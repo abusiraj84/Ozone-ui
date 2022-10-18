@@ -3,6 +3,7 @@
   "version": "0.0.3",
   "description": "Ozone UI",
   "license": "MIT",
+  "private": true,
   "author": {
     "name": "Husam Nasrallah",
     "url": "https://github.com/abusiraj84"

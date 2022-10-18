@@ -1,5 +1,6 @@
 import {defineComponent, h, type PropType} from 'vue'
 
+const baseClasses = 'px-[12px] py-[6px] rounded-[8px] text-white font-bold text-[14px]'
 
 
 export const Btn = defineComponent({
@@ -14,15 +15,16 @@ export const Btn = defineComponent({
             default: '#0A67D8'
         },
     },
-    setup(props) {
-        const baseClasses = 'px-[12px] py-[6px] rounded-[12px] text-white font-bold'
-
-        return () => h('button', {
+        
+    render() {
+        return h('button', {
+            class: baseClasses,
             style: {
-                background: props.bg
-            },
-            class: baseClasses
-        }, props.text)
+                background: this.bg
+            }
+        }, this.text)
     }
+
+  
 })
 export type Btn = InstanceType<typeof Btn>

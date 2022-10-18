@@ -1,6 +1,6 @@
 {
   "name": "ozone-ui",
-  "private": false,
+  "private": true,
   "license": "MIT",
   "workspaces": [
     "packages/*",
