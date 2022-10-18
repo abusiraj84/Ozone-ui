@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-  <main>
-    <Btn text="click" bg="#d4dd33" />
+  <main class="flex justify-center items-center h-screen">
+    <Btn text="click" />
   </main>
 </template>

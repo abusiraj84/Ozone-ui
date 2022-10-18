@@ -11,15 +11,17 @@ export const Btn = defineComponent({
         },
         bg: {
             type: String as PropType<string>,
-            default: '#f3f3'
+            default: '#0A67D8'
         },
     },
     setup(props) {
+        const baseClasses = 'px-[12px] py-[6px] rounded-[12px] text-white font-bold'
+
         return () => h('button', {
             style: {
                 background: props.bg
             },
-            class: 'border-0'
+            class: baseClasses
         }, props.text)
     }
 })
