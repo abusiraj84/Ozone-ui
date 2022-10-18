@@ -29,5 +29,13 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "engines": {
+    "node": "^14.15.0 || >=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abusiraj84/Ozone-ui.git",
+    "directory": "packages/ui"
   }
 }
