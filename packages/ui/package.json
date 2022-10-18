@@ -16,7 +16,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/abusiraj84/Ozone-ui.git"
+    "url": "git+https://github.com/abusiraj84/Ozone-ui.git",
+    "directory": "packages/ui"
   },
   "scripts": {
     "dev": "vite",
@@ -59,5 +60,5 @@
     "vitest": "^0.23.0",
     "vue-tsc": "^0.40.7"
   },
-  "gitHead": "e39641e600cc3a59e704a1916134ae49a6b344dd"
+  "gitHead": "fed987c61752a0ed5b6b0e3d4cef4e7f61e45c0e"
 }
