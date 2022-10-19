@@ -1,5 +1,5 @@
 {
-  "name": "@ozone-ui/app1",
+  "name": "@husamnas/app1",
   "version": "0.0.1",
   "private": false,
   "license": "MIT",
@@ -18,7 +18,7 @@
     "pinia": "^2.0.21",
     "vue": "^3.2.38",
     "vue-router": "^4.1.5",
-    "@ozone-ui/ui": "*"
+    "@husamnas/ui": "*"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",
